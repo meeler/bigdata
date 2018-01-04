@@ -1,0 +1,9 @@
+**/.idea
+**/*.iml
+*/target/*
+**/rebel.xml*
+**/.rebel.xml*
+**/pom.xml.versionsBackup
+**/.DS_Store
+*/logs/*
+logs/*
