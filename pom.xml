@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>zktest</module>
+        <module>scala</module>
     </modules>
     <packaging>pom</packaging>
 

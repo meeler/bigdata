@@ -11,6 +11,11 @@ import org.apache.zookeeper.Watcher.Event.EventType;
 import org.apache.zookeeper.ZooDefs.Ids;
 import org.apache.zookeeper.ZooKeeper;
 
+/**
+ * 多台及其访问资源，一次只能一台及其访问
+ *
+ */
+
 public class DistributedClientLock {
 	
 
@@ -97,9 +102,11 @@ public class DistributedClientLock {
 	}
 
 	public static void main(String[] args) throws Exception {
-		DistributedClientLock dl = new DistributedClientLock();
-		dl.connectZookeeper();
-		Thread.sleep(Long.MAX_VALUE);
+//		DistributedClientLock dl = new DistributedClientLock();
+//		dl.connectZookeeper();
+//		Thread.sleep(Long.MAX_VALUE);
+		System.out.println("hhhhh");
+		System.out.println("eeeee");
 	}
 
 	
